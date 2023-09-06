@@ -1,0 +1,4 @@
+Hello |*nome*| !
+Your request was received on |*data*|.
+
+You will be contacted shortly at |*telefono*| to arrange the details.

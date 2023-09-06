@@ -1,0 +1,64 @@
+<!-- Faq Section Start -->
+<div class="faq-section section py60 ancore" id="Faq">
+    <div class="container">
+        <!-- Section Title Start -->
+        <div class="section-title text-center" data-aos="fade-up">
+            <!-- <span class="sub-title secondary-color">Cosa rispondo con puù </span> -->
+            <h2 class="title heading-color">Domande frequenti</h2>
+        </div>
+        <!-- Section Title End -->
+        <div class="row mt20MobileIpadVer">
+            <!-- Start Single Accordion -->
+            <div class="col-lg-6">
+                
+                <div class="mx-accordion max-mb-n30 mb-sm-30 mb-xs-30" id="accordion1">
+                    
+                    <% FaqSx.forEach(element => { %>
+                    <div class="card">
+                        <div class="card-header" id="heading<%= element.id %>">
+                            <h5 class="mb-0">
+                                <a href="#" class="acc-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapse<%= element.id %>" aria-expanded="false" aria-controls="collapse<%= element.id %>">
+                                    <%= element.domanda %>
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse<%= element.id %>" class="collapse" aria-labelledby="heading<%= element.id %>" data-bs-parent="#accordionExample">
+                            <div class="card-body"><%- element.risposta %>
+                            </div>
+                        </div>
+                    </div>
+                    <% });  %>
+
+                </div>
+            </div>
+            <!-- End Single Accordion -->
+
+            <!-- Start Single Accordion -->
+            <div class="col-lg-6">
+                <div class="mx-accordion max-mb-n30" id="accordion2">
+                    
+                    <% FaqDx.forEach(element => { %>
+                    <div class="card">
+                        <div class="card-header" id="heading<%= element.id %>">
+                            <h5 class="mb-0">
+                                <a href="#" class="acc-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapse<%= element.id %>" aria-expanded="false" aria-controls="collapse<%= element.id %>">
+                                    <%= element.domanda %>
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapse<%= element.id %>" class="collapse" aria-labelledby="heading<%= element.id %>" data-bs-parent="#accordionExample2">
+                            <div class="card-body"><%- element.risposta %>
+                            </div>
+                        </div>
+                    </div>
+                    <% });  %>
+
+                </div>
+            </div>
+            <!-- End Single Accordion -->
+        </div>
+    </div>
+</div>
+<!-- Faq Section End -->

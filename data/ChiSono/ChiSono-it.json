@@ -1,0 +1,114 @@
+[
+    {
+        "anno" : "1999",
+        "titolo" : "Il mio nome è Flash!",
+        "testo" : "Nel ’99 compivo 20 anni e vivevo a <b>Sassuolo (MO)</b>, patria della piastrella. In quell’anno iniziai a collaborare con <b>Artenueva</b> (una delle primissime agenzie web sassolesi), e con <b>Microinformatica</b> (storico negozio di computer). Passai da Frontpage alla suite Macromedia e quante ne avrei da raccontare su Flash!",
+        "immagine" : "/images/chiSono/1999macromediaFlash.jpg",
+        "altImmagine" : "Macromedia Flash nel lontano 1999"
+    },
+    {
+        "anno" : "2001",
+        "titolo" : "Freewave, l’onda libera dei siti web",
+        "testo" : "Fondai la <b>Freewave s.r.l.</b> una società per realizzare siti internet. Nel 2003 acquistai la mia prima macchina in server farm (gestita) ed iniziai a scrivere software in php. <b>Scrissi un e-commerce MasterixWeb che <span class=\"sottorosso\">venne lanciato a SMAU</span></b>.",
+        "immagine" : "/images/chiSono/2001freewave.jpg",
+        "altImmagine" : "Freewave srl Sassuolo"
+    },
+    {
+        "anno" : "2004",
+        "titolo" : "Linux Mon Amour",
+        "testo" : "Iniziai ad innamorarmi di Linux (in particolare di <a href=\"https://www.debian.org\" target=\"_blank\">Debian</a>) e a frequentare le comunità del software libero. <a href=\"http://erlug.linux.it/\" target=\"_blank\">Erlug</a> a Bologna e <a href=\"http://ildn.net/\" target=\"_blank\">ILDN</a> online furono i luoghi dove conobbi un numero imprecisato di persone che ho frequentato per moltissimi anni e che sono felice di frequentare ancora.",
+        "immagine" : "/images/chiSono/2004linux.jpg",
+        "altImmagine" : "Linux mio amore"
+    },
+    {
+        "anno" : "2005",
+        "titolo" : "Free as in speech",
+        "testo" : "Abbandonai la Freewave s.r.l. che, nel frattempo, si era maggiormente <b>orientata verso la stampa</b> ed iniziai a studiare per diventare sistemista Linux. Continuai a <b>realizzare siti internet ed applicazioni web su stack LAMP (Linux, Apache, Mysql, Php)</b> ma amministrando in prima persona anche i server.",
+        "immagine" : "/images/chiSono/2005free.jpg",
+        "altImmagine" : "Free as in speach"
+    },
+    {
+        "anno" : "2008",
+        "titolo" : "Business as usual",
+        "testo" : "Iniziai una lunga collaborazione con BM Informatica, azienda del comprensorio sassolese che si occupava di <b>assistenza informatica alle aziende</b>. Portai la mia esperienza su Linux ed imparai molto sul funzionamento di Windows e sulle<b> esigenze IT delle aziende che servivamo.</b>",
+        "immagine" : "/images/chiSono/2008business.jpg",
+        "altImmagine" : "Assistenza informatica aziende"
+    },
+    {
+        "anno" : "2009",
+        "titolo" : "Ztrasp, Castorama e Bricocenter",
+        "testo" : "Entrai in un progetto bellissimo. <b>Scrissi e mantenni un'applicazione \"ibrida\"</b>, offline e online, per la quale percepii royalties per svariati anni. L’applicazione era venduta ai fornitori di <b class=\"sottorosso\">Castorama</b> (ora Leroy Merlin) e <b class=\"sottorosso\">Bricocenter</b> e si occupava di fornire i dati per lo stoccaggio merci alla piattaforma di interscambio. ",
+        "immagine" : "/images/chiSono/2009ztrasp.jpg",
+        "altImmagine" : "Ztrasp, Castorama, Bricocenter"
+    },
+    {
+        "anno" : "2012",
+        "titolo" : "Digital Marketing",
+        "testo" : "Iniziai a studiare gli <span class=\"fst-italic\">effetti</span> di quello che sviluppavo e di come <b>la tecnologia influenzava le <span class=\"sottorosso\">vendite</span> e la marca</b>. Iniziai un viaggio avventuroso, pieno di insidie, nuovi amici, nuovi partner e meravigliosi collaboratori.",
+        "immagine" : "/images/chiSono/2012digitalMarketing.jpg",
+        "altImmagine" : "Digital Marketing"
+    },
+    {
+        "anno" : "2014",
+        "titolo" : "Ma tu ne capisci di Marketing?",
+        "testo" : "Nel 2012 realizzai un sito per una piccola azienda manifatturiera. All’inizio del 2014 era già tempo di ristrutturarlo: l’azienda era cresciuta parecchio. Nell’autunno di quell’anno <b>mi chiesero di assumere l’incarico di <span class=\"sottorosso\">direttore marketing dell’azienda</sèanm></b>. Da incosciente accettai.",
+        "immagine" : "/images/chiSono/2014zare.jpg",
+        "altImmagine" : "Zare prototipi boretto"
+    },
+    {
+        "anno" : "2015",
+        "titolo" : "ZARE e il marketing che mi ha segnato in modo indelebile",
+        "testo" : "Iniziai un periodo che si rivelò intenso e nel corso del quale ho potuto lavorare in un’azienda che da piccola officina meccanica crebbe fino a <b>diventare il riferimento italiano nella sua nicchia, l’<span class=\"sottorosso\">Additive Manufacturing Industriale</span></b>. Abbiamo fatto un buon marketing!",
+        "immagine" : "/images/chiSono/2015zareMarketing.jpg",
+        "altImmagine" : "Direttore marketing Zare"
+    },
+    {
+        "anno" : "2016",
+        "titolo" : "Il marketing digitale",
+        "testo" : "Abbiamo fatto un buon marketing perché ho sì avuto la fortuna di partire dall’inizio, di scegliere la strategia di marca e le tattiche da svolgere e di attuarne una parte in prima persona, <b>ma anche di poter disporre di collaboratori e fornitori che mi hanno insegnato tanto</b> e con i quali <b class=\"sottorosso\">ho amato lavorare</b>.",
+        "immagine" : "/images/chiSono/2016marketingDigitale.jpg",
+        "altImmagine" : "Il marketing digitale"
+    },
+    {
+        "anno" : "2018",
+        "titolo" : "Da digitale a fisico",
+        "testo" : "Grazie ai miei partner Imparai a capire le attività di advertising, sia digitale che mezzo stampa, e <b>a coinvolgere i venditori nella comunicazione</b>. Coordinai la produzione di video, organizzai Open Day interni, organizzai fiere in Italia e all’estero e realizzai alcune campagne di co-marketing anche con brand internazionali come <b>HP, ZEISS, ZWICK ROELL</b>.",
+        "immagine" : "/images/chiSono/2018digitaleFisico.jpg",
+        "altImmagine" : "Dal marketing digitale a quello fisico"
+    },
+    {
+        "anno" : "2019",
+        "titolo" : "Gruppo ZARE",
+        "testo" : "Nel corso degli anni non solo l’azienda crebbe ma si moltiplicò in <b>un gruppo di <span class=\"sottorosso\">3 aziende e 4 marchi</sèan></b> con lo scopo di declinare le possibilità produttive su mercati e tipi di cliente diversi. Non nascondo che c’era decisamente parecchio da fare nel coordinare tutte le attività di marketing del gruppo! Che gran divertimento!",
+        "immagine" : "/images/chiSono/2019gruppoZare.jpg",
+        "altImmagine" : "Gruppo Zare"
+    },
+    {
+        "anno" : "2020",
+        "titolo" : "La splendida fine di un grande ciclo",
+        "testo" : "Alla fine del 2020 terminò una lunga fase durante la quale l’azienda venne acquisita per essere inserita nel gruppo industriale <b>BEAM-IT </b> che a sua volta è parte della grande multinazionale <b>SANDVIK</b>. <b>Per me fu piuttosto <span class=\"sottorosso\">disorientante</span>.</b> Fine di decine di impegni contemporanei, delle riunioni, della vita in azienda. <span class=\"sottorosso\">Ed ora che faccio?</span>",
+        "immagine" : "/images/chiSono/2020ZareEnd.jpg",
+        "altImmagine" : "La fine del ciclo Zare"
+    },
+    {
+        "anno" : "2021",
+        "titolo" : "Potrei pensare di fare il consulente",
+        "testo" : "Fornii diverse <b>consulenze strategiche e tattiche</b> che mi generarono molta soddisfazione ma mi mancava qualcosa. <b>Mi mancava sporcarmi le mani, non dormire la notte, <span class=\"sottorosso\">fare</span></b> e lavorare tanto e vedere gli effetti delle azioni giorno dopo giorno.",
+        "immagine" : "/images/chiSono/2021consulente.jpg",
+        "altImmagine" : "Francesco Boschetti consulente marketing"
+    },
+    {
+        "anno" : "2022",
+        "titolo" : "Wow! Ma ora tutto è cloud!",
+        "testo" : "Iniziai una collaborazione con <a href=\"https://www.juno.am\" target=\"_blank\">Juno</a> ma soprattutto iniziai a collaborare con la loro start-up innovativa <a href=\"https://www.3festo.com\" target=\"_blank\">3Festo.</a><b> Dovevo scrivere codice, dovevo amministrare macchine e programmare</b> in linguaggi e con logiche di cui avevo solo sentito parlare negli ultimi anni, ma nelle quali non avevo mai, davvero, messo mano. <b class=\"sottorosso\">Esaltante!</b>",
+        "immagine" : "/images/chiSono/2022cloud.jpg",
+        "altImmagine" : "Sviluppo cloud"
+    },
+    {
+        "anno" : "OGGI",
+        "titolo" : "OGGI",
+        "testo" : "Mi occupo di ciò che amo e che ho fatto anche come direttore marketing: <b>collaboro con i miei ex-colleghi</b> direttori marketing, consulenti, social media manager e creativi per <span class=\"sottorosso fst-italic\">sostituire software obsoleti, svecchiare siti web, integrare e far comunicare applicazioni tra loro, automatizzare e portare online i processi aziendali</span>. Amo la tecnica, quella sporca, quella che mi diverte. <b class=\"sottorosso\">E studio</b>, studio il più possibile.",
+        "immagine" : "/images/chiSono/oggi.jpg",
+        "altImmagine" : "Cosa fa oggi Francesco Boschetti"
+    }
+]

@@ -1,0 +1,38 @@
+<div class="testimonial-section section section-padding-t80-b100" style="background: rgb(250, 248, 246)">
+    <div class="container-fluid pl-80 pl-lg-15 pl-md-15 pl-sm-15 pl-xs-15 pr-80 pr-lg-15 pr-md-15 pr-sm-15 pr-xs-15">
+        <!-- Section Title Start -->
+        <div class="section-title-three text-center">
+            <span class="sub-title">Su di me</span>
+        </div>
+        <!-- Section Title End -->
+
+        <!--Testimonial Slider Start -->
+        <div class="testimonial-slider-two swiper-container">
+            <div class="swiper-wrapper">
+    
+    
+                <% testimonianze.forEach(element => { %>
+                <div class="swiper-slide">
+                    <div class="testimonial-two testimonial-three">
+                        <div class="content">
+                            <p><%- element.description %></p>
+                        </div>
+                        <div class="author-info">
+                            <div class="image">
+                                <img src="<%= element.avatar %>" alt="" />
+                            </div>
+                            <div class="cite">
+                                <h6 class="name"><%= element.name %></h6>
+                                <span class="position"><%= element.position %></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% });  %>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--Testimonial Slider End -->
+    </div>
+</div>

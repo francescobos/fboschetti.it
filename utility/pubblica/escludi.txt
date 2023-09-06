@@ -1,0 +1,7 @@
+node_modules
+utility
+.env
+.git
+data/datiEsterni.db
+data/cache
+.DS_Store

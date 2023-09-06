@@ -1,0 +1,47 @@
+        <!-- Success Section Start  -->
+        <div class="success-section section section-padding" style="padding-top: 50px !important;">
+            <div class="container">
+               
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="mx-timeline">
+                            <ul class="mx-timeline-list mx-animation-queue">
+                                <li class="line"></li>
+                                
+                                <% chiSono.forEach(element => { %>
+                                <li class="item">
+                                    <div class="dots">
+                                        <div class="middle-dot"></div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 timeline-col left timeline-feature">
+                                            <div class="inner">
+                                                <div class="timeline-image">
+                                                    <div class="title-wrap">
+                                                        <h5 class="title"><%- element.anno %></h5>
+                                                    </div>
+                                                    <img src="<%- element.immagine %>" alt="<%- element.altImmagine %>" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 timeline-col right timeline-info">
+                                            <div class="inner">
+                                                <div class="timeline-content-wrap">
+                                                    <div class="timeline-content-body">
+                                                        <h4 class="title"><%- element.titolo %></h4>
+                                                        <p><%- element.testo %></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <% });  %>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Success Section End  -->

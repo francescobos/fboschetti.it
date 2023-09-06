@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="it">
+    <head>
+    <%- include ('./components/Generics/Meta/Meta.ejs') %>
+    <%- meta %>
+    <%- include ('./components/Generics/Css/Css.ejs') %>
+    <% if (production) { %> 
+        <%- include ('./components/Generics/Head/googleAndOthers.ejs') ;%>
+    <% } %>
+    </head>
+    <body class="template-color-10">
+        <div id="page">
+            <%- include ('./components/Generics/Header/Header-it.ejs') %>
+            <%- include ('./components/HomePage/Slider/Slider-it.ejs') %>
+            <%- include ('./components/HomePage/Lavoriamo/Lavoriamo-it.ejs') %>
+            <%- include ('./components/HomePage/Presentazione/Presentazione-it.ejs') %>
+            <%- include ('./components/HomePage/Testimonial/Testimonial-it.ejs') %>
+            <%- include ('./components/HomePage/LavoratoCon/LavoratoCon-it.ejs') %>
+            <%- include ('./components/Generics/CtaLavoriamo/CtaLavoriamo-it.ejs') %>
+            <%- include ('./components/Generics/Footer/Footer-it.ejs') %>
+        </div>
+        <%- include ('./components/Generics/MenuMobile/MenuMobile-it.ejs') %>
+        <%- include ('./components/Generics/Js/Js.ejs') %>
+       
+    </body>
+</html>

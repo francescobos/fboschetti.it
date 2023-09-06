@@ -1,0 +1,74 @@
+        <!-- Contact Form Section Start -->
+        <div class="contact-form-section section section-padding-bottom py60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mtNeg120MobileIpadVer">
+                        <div class="contact-info max-mb-50">
+                            <div class="imgContatti hideMobileIpadVer">
+                                <img src="/images/logo/Logo-fBoschetti.png" alt="Logo Francesco Boschetti" width="160" />
+                            </div>
+                            <div class="emailContatti">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title"> Email</h4>
+                                    <span class="info-text"> 
+                                        <a href="mailto:ciao@fboschetti.it">ciao@fboschetti.it</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="linkedinContatti" style="margin-top: 16px;">
+                                <div class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title"> Linkedin</h4>
+                                    <span class="info-text"> 
+                                        <a href="https://www.linkedin.com/in/francescoboschetti" target="_blank">@francescoboschetti</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact-form pl-90 pl-md-0 pl-sm-0 pl-xs-0">
+                            <form id="contact-form">
+                                <div class="contact-form-success alert alert-success d-none mt-4" id="areaMessaggiGreen">
+                                    <strong>Inviato</strong> Il messaggio è stato inviato, ti risponderemo il più presto possibile.
+                                </div>
+        
+                                <div class="contact-form-error alert alert-danger d-none mt-4" id="areaMessaggiRed">
+                                    <strong>Errore!</strong> Non è stato possibile inviare il messaggio.
+                                    <span class="mail-error-message text-1 d-block"></span>
+                                </div>
+                                <div class="row max-mb-n30">
+                                    <div class="col-md-12 col-12 max-mb-30">
+                                        <input type="text" placeholder="Azienda *" name="azienda" id="azienda">
+                                    </div>
+                                    <div class="col-md-12 col-12 max-mb-30">
+                                        <input type="text" placeholder="Nome e Cognome *" name="nome" id="nome">
+                                    </div>
+                                    <div class="col-md-12 col-12 max-mb-30">
+                                        <input type="email" placeholder="Email *" name="email" id="email">
+                                    </div>
+                                    <div class="col-md-12 col-12 max-mb-30">
+                                        <input type="text" placeholder="Telefono *" name="telefono" id="telefono">
+                                    </div>
+                                    <div class="col-12 max-mb-30">
+                                        <textarea name="messaggio" placeholder="Messaggio *" id="messaggio" ></textarea>
+                                        <input type="hidden" value="<%- lang %>" name="lang" id="lang">
+                                    </div>
+                                    <div class="col-12 text-left max-mb-30">
+                                        <button class="btn btn-primary btn-hover-secondary btn-width-180 btn-height-60" id="bottoneInvio">Invia</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="form-messege"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form Section End -->

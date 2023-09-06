@@ -1,0 +1,325 @@
+.intro10-section {
+    background-color: rgb(251, 249, 246);
+}
+
+.sottorosso {
+    border-bottom: 2px solid #9e1946
+}
+
+.header-logo a img {
+    width: 60%;
+    padding: 15px 0;
+}
+
+.footer-section {
+    padding: 20px 0 20px; 
+}
+
+/* menu */
+
+
+ 
+.mobile-menu-logo a img {
+    width: 60%;
+}
+
+.site-main-mobile-menu-inner::before {
+    background-color: rgba(6, 73, 61, 0.7);
+}
+/* */
+
+.titoloFont {
+    font-family: "Yellowtail";
+    font-size: 64px;
+    font-weight: 400;
+    color: #9E1946;
+    line-height: 60px;
+}
+.divisione {
+    border-bottom: 2px solid #00483C;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.py60 {
+    padding: 60px 0;
+}
+
+.ancore {
+	display:block;
+	padding-top:100px;
+	margin-top:-100px;
+}
+
+@media (max-width: 767px) {
+    .mb20Mobile {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mb20MobileIpadVer {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mt20MobileIpadVer {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hideMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .hideMobileIpadVer {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .mtNeg120Mobile {
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mtNeg120MobileIpadVer {
+        margin-top: -120px;
+    }
+}
+
+.header-social a i {
+    font-size: 40px;
+}
+
+.header-logo a {
+    min-width: 90px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .section-title {
+        margin-bottom: 50px;
+    }
+}
+
+/* Slider Component */
+/* disegno Francesco */
+
+.intro10-section .shape-5 {
+    left: 22%;
+    bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .intro10-section .shape-5 {
+        left: 14%;
+        bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .intro10-section .shape-5 {
+        left: 16%;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .intro10-section .shape-5 {
+        left: 5%;
+        bottom: 10px;
+    }
+}
+/* END disegno Francesco */
+
+
+@media only screen and (max-width: 767px){
+.intro10-section .shape-9 {
+    bottom:367px
+}
+}
+
+
+/* END Slider Component */
+
+/* Presentazione Component */
+.artist-quote-right button {
+    color: white !important;
+}
+.artist-quote-right p {
+    font-size: 16px;
+    line-height: 33px;
+}
+.artist-quote-right a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00483C;
+}
+.artist-quote-right a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* END Presentazione Component */
+
+/* Lavoriamo Component */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-title-three .title {
+        font-size: 32px;
+    }
+}
+.section-title-three {
+    max-width: 780px;
+}
+
+.coaching-box {
+    text-align: center;
+}
+
+.coaching-box img {
+    width: 30%;
+}
+
+.section-padding-t60-b45 {
+    padding-top: 60px;
+    padding-bottom: 45px;
+  }
+/* END lavoriamo component */
+
+
+/* Lavorato con Component */
+.nomeAzienda {
+    text-align: center;
+    color: #00483C;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+    line-height: 15px;
+}
+.settoreAzienda {
+    text-align: center;
+    color: #7d7d7d;
+    text-transform: uppercase;
+    font-size: 80%;
+    line-height: 14px;
+    margin: 0 0 5px 0;
+}
+.section-title-three {
+    margin-bottom: 40px;
+}
+/* END Lavorato con Component */
+
+/* CTA Lavoriamo */
+.buttonCtaLavoriamo {
+    background-color:#9e1946;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textCtaLavoriamo {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .divBottone {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/*  Testimonial */
+
+.testimonial-two.testimonial-three .content p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* ChiSOno */
+
+.mx-timeline .timeline-info p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.mx-timeline .timeline-info .inner {
+    padding-top: 100px;
+}
+
+/* END ChiSono */
+
+/* Lavoriamo Insieme */
+/* Prima CTA */
+.profile-info p {
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.titoloTipoCollaborazione h2 {
+    font-family: "Yellowtail";
+    font-size: 54px;
+    font-weight: 400;
+    color: #00483C;
+
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #9E1946;
+    line-height: 56px;
+    margin: 10px 0 20px;
+    margin-top:120px;
+}
+
+.coaching-box p {
+    font-size: 14px;
+}
+.coaching-box h3 {
+    border-bottom: 2px solid #9E1946;
+}
+
+.coaching-box .content .title {
+    margin-bottom: 10px;
+}
+
+/* FAQ */
+.mx-accordion .card-header h5 a.acc-btn {
+    padding: 20px 45px 20px 26px;
+}
+
+/* END LavoriamoInsieme */
+
+/* Modulo Contatti */
+
+.contact-info {
+    display: block;
+}
+
+.imgContatti img {
+    width: 120px;
+}
+.emailContatti {
+    margin-top: 120px;
+}
+.contact-info .icon i {
+    vertical-align: middle;
+}
+.contact-info .info .title {
+    margin-bottom: 0;
+}
+.contact-info .info .info-text {
+    line-height: 36px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* END Modulo Contatti */

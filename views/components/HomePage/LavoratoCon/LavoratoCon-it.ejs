@@ -1,0 +1,36 @@
+<div class="section section-padding-t80-b100 section-fluid-two course7-animation-shape">
+    <div class="container">
+
+        <!-- Section Title Start -->
+        <div class="section-title-three text-center">
+            <span class="sub-title">Ho lavorato con</span>
+        </div>
+        <!-- Section Title End -->
+
+        <!-- Course Wrapper Start -->
+        <div class="row row-cols-xl-6 row-cols-lg-6 row-cols-md-4 row-cols-2 max-mb-n30">
+
+            <% clienti.forEach(element => { %>
+            <div class="col max-mb-30">
+                <div class="course-7">
+                    <div class="thumbnail">
+                        <img src="<%= element.logo %>" alt="<%= element.nome %>" />
+                    </div>
+                    <div class="nomeAzienda">
+                        <%= element.nome %>
+                    </div>
+                    <div class="settoreAzienda">
+                        <%= element.settore %>
+                    </div>
+                    <div class="settoreAzienda">
+                        <%= element.citta %>
+                    </div>
+                </div>
+            </div>
+            <% });  %>
+           
+        </div>
+        <!-- Course Wrapper End -->
+    </div>
+
+</div>

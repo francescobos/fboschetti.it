@@ -1,0 +1,10 @@
+Nuova richiesta di contatti
+
+Data: |*data*|
+Data: |*azienda*|
+Nome: |*nome*|
+Email: |*email*|
+Telefono: |*telefono*|
+Messaggio: |*messaggio*|
+
+Chiama subito il contatto!

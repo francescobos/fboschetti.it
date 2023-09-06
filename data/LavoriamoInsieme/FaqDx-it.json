@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 6,
+        "domanda" : "Mi occupo di social marketing, puoi aiutarmi con siti e domini?",
+        "risposta" : "<b>Certamente</b>. Posso gestire per te l'infrastruttura dei tuoi clienti o, se preferisci, affittargli parte della mia. Da più di 20 anni registro domini, configuro DNS, mantengo server web e realizzo siti. Ce la caveremo!"
+    },
+    {
+        "id" : 7,
+        "domanda" : "Chi mi segue il sito è sparito! Puoi occupartente?",
+        "risposta" : "Certamente. <b>In base alla tecnologia</b> con la quale è stato realizzato <b>valuteremo la soluzione più adatta</b> alla tua situazione. Potremo anche rinfrescare il sito senza stravolgerlo o cambiare tencologia per metterlo in sicurezza."
+    },
+    {
+        "id" : 8,
+        "domanda" : "Lavori con agenzie di marketing / comunicazione?",
+        "risposta" : "<b>Sì, in differenti modalità.</b> Posso gestire le tua macchine o le macchine dei tuoi clienti, posso lavorare su siti, software o semplicemente essere un tuo consulente."
+    },
+    {
+        "id" : 9,
+        "domanda" : "Vorrei automatizzare l'invio delle mail per i miei commerciali.",
+        "risposta" : "<b>Parliamone</b>. Per un cliente <b>invio circa 500.000 email all'anno su AWS</b>, ragioniamo insieme sul tuo sistema di vendita e poi vediamo se e cosa automatizzare e come ottimizzare le pipeline."
+    },
+    {
+        "id" : 10,
+        "domanda" : "Lavori da solo o hai dei collaboratori?",
+        "risposta" : "Lavoro in prevalenza da solo soprattutto nelle fasi iniziali di un progetto: amo  avere un visione d'insieme e mi trovo maggiormente a mio agio su lavori trasversali. Ovviamente in più di 20 anni ho conosciuto molti professionisti e gruppi organizzati. <b>Conosco i miei limiti e riconosco quando è migliorativo coinvolgere la mia rete</b>."
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "domanda" : "Ti occupi di Digital Marketing?",
+        "risposta" : "No. Me ne sono occupato ed ho <span class=\"sottorosso\">diretto il marketing di un gruppo aziendale manifatturiero</span>, ma preferisco dedicarmi all'implementazione di <b>Siti Web, Software Online</b> ed <b>Infrastruttura</b> o fornire <b>Consulenza</b> in tali ambiti. <b>Amo, invece, collaborare con chi si occupa di digital marketing </b>per supportarlo tecnicamente.</a>"
+    },
+    {
+        "id" : 2,
+        "domanda" : "Sono un consulente di marketing, puoi aiutarmi?",
+        "risposta" : "<b>Sì, e molto volentieri</b>. Se ti occupi di consulenza strategica o pianificazione tattica <b>posso essere il tuo braccio armato nell'implemetazione</b>. Ho diretto il marketing di un gruppo manifatturiero e, con un po' di fortuna, dovremo intenderci."
+    },
+    {
+        "id" : 3,
+        "domanda" : "Sono il direttore marketing di un'azienda, puoi aiutarmi?",
+        "risposta" : "<b>Sì. Dovresti avere le idee chiare</b> dal punto di vista strategico e tattico. Se hai già un progetto parliamone, se devi confezionarlo posso aiutarti."
+    },
+    {
+        "id" : 4,
+        "domanda" : "Sono un imprenditore, puoi aiutarmi?",
+        "risposta" : "<b>Dipende dal tipo di lavoro che ti aspetti</b>, da quanto è dettagliata la tua strategia e quanto sono precise le tue tattiche. Non lo escludo, proviamo a sentirci."
+    },
+    {
+        "id" : 5,
+        "domanda" : "Con quali tecnologie lavori?",
+        "risposta" : "Droplet / VM Ubuntu, Node.js, React, Next.js, AWS, Docker, Plain Admin"
+    }
+
+]

@@ -1,0 +1,4 @@
+Buongiorno |*nome*| !
+La tua richiesta è stata ricevuta in data |*data*|.
+
+A breve verrai ricontattato al numero |*telefono*| per concordare i dettagli.
