@@ -1,4 +1,5 @@
 const db = require('better-sqlite3')('./data/datiDb.db');
+const { indexOf } = require('lodash');
 const { URL } = require('url');
 
 function ValidateEmail(inputText) {
@@ -72,20 +73,36 @@ function trimLastSlash (pathname) {
       }
   }
 
-function avoid404(indirizzo) {
+function avoid404(indirizzo, dataStorage="db" ) {
     
     const myURL = new URL(indirizzo)
     // questo permette di vedere i vari elementi del'oggetto
     //console.log(myURL)
 
-    const row = db.prepare(`SELECT * FROM "301redirect" WHERE sorgente = ?`).get(trimLastSlash(myURL.pathname));
+    if (dataStorage === "db") {
+        const row = db.prepare(`SELECT * FROM "301redirect" WHERE sorgente = ?`).get(trimLastSlash(myURL.pathname));
 
-    if (row != undefined) { 
-        if (myURL.search != '') {
-            return row.destinazione + '/' + myURL.search
+        if (row != undefined) { 
+            if (myURL.search != '') {
+                return row.destinazione + '/' + myURL.search;
+            }
+            return row.destinazione;
         }
-        return row.destinazione
+    } else if (dataStorage==="json") {
+        const redirects = require('../data/Redirect301/Recirect301.json');
+        
+        for (i=0; i<redirects.length; i++){
+
+            if (redirects[i].sorgente == myURL.pathname){
+                if (myURL.search != '') {
+                    return redirects[i].destinazione + '/' + myURL.search;
+                } else {
+                    return redirects[i].destinazione;
+                }
+            }
+        } 
     }
+
 }
 
 const generateMeta = (meta) => {

@@ -36,7 +36,7 @@ app.use('/it', checkUrl, itRoutes);
 
 //avoid 404 by 301 redirect in dbTable else return 404
 app.use( (req,res) => {
-    const var404=tools42.avoid404(req.protocol + '://' + req.get('host') + req.originalUrl);
+    const var404=tools42.avoid404(req.protocol + '://' + req.get('host') + req.originalUrl, 'json');
     if (var404 != null) { res.redirect(301, req.protocol + '://' + req.get('host') + var404) } 
     else { res.status(404).render(`404-${lang}`,  {nerror:404, titolo:"404"} ) }
 } )
