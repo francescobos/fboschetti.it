@@ -1,7 +1,7 @@
 [
     {
         "id" : 1,
-        "nome" : "Raggio di soles",
+        "nome" : "Raggio di sole",
         "settore" : "Produzione mangimi",
         "logo" : "/images/clienti/raggiodisole.png",
         "citta" : "Milano"
