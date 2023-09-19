@@ -1,0 +1,2 @@
+Email di test
+Questa è una mail di prova inviata tramite AWS
