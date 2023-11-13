@@ -2,16 +2,21 @@
     {
         "id" : 1,
         "domanda" : "Ti occupi di Digital Marketing?",
-        "risposta" : "No. Me ne sono occupato ed ho <span class=\"sottorosso\">diretto il marketing di un gruppo aziendale manifatturiero</span>, ma preferisco dedicarmi all'implementazione di <b>Siti Web, Software Online</b> ed <b>Infrastruttura</b> o fornire <b>Consulenza</b> in tali ambiti. <b>Amo, invece, collaborare con chi si occupa di digital marketing </b>per supportarlo tecnicamente.</a>"
+        "risposta" : "Dipende. Me ne sono occupato ed ho <span class=\"sottorosso\">diretto il marketing di un gruppo aziendale manifatturiero</span>. Posso occuparmi di implementare il marketing attraverso i processi aziendali a supporto della vendita. Le tattiche possono essere <b>\"digitali\"</b> o meno, i processi, invece, probabilmente trovano benefici ad essere <b>\"digitalizzati\"</b>."
     },
     {
         "id" : 2,
-        "domanda" : "Sono un consulente di marketing, puoi aiutarmi?",
-        "risposta" : "<b>Sì, e molto volentieri</b>. Se ti occupi di consulenza strategica o pianificazione tattica <b>posso essere il tuo braccio armato nell'implemetazione</b>. Ho diretto il marketing di un gruppo manifatturiero e, con un po' di fortuna, dovremo intenderci."
+        "domanda" : "Sono un consulente, puoi aiutarmi?",
+        "risposta" : "<b>Sì, e molto volentieri</b>. Se ti occupi di consulenza strategica o pianificazione tattica <b>posso essere il tuo braccio armato nell'implemetazione</b>. Ho diretto il marketing di un gruppo manifatturiero <b>a stretto contatto con direzione commerciale e proprietà</b>, con un po' di fortuna, dovremo intenderci."
     },
     {
         "id" : 3,
         "domanda" : "Sono il direttore marketing di un'azienda, puoi aiutarmi?",
+        "risposta" : "<b>Sì. Dovresti avere le idee chiare</b> dal punto di vista strategico e tattico. Se hai già un progetto parliamone, se devi confezionarlo posso aiutarti."
+    },
+    {
+        "id" : 13,
+        "domanda" : "Sono il direttore commerciale di un'azienda, puoi aiutarmi?",
         "risposta" : "<b>Sì. Dovresti avere le idee chiare</b> dal punto di vista strategico e tattico. Se hai già un progetto parliamone, se devi confezionarlo posso aiutarti."
     },
     {
