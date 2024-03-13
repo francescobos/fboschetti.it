@@ -27,7 +27,7 @@
     {
         "id" : 5,
         "domanda" : "Con quali tecnologie lavori?",
-        "risposta" : "Droplet / VM Ubuntu, Node.js, React, Next.js, AWS, Docker, Plain Admin"
+        "risposta" : "Droplet / VM Ubuntu, Node.js, React, Next.js, AWS, Docker, React Admin"
     }
 
 ]
