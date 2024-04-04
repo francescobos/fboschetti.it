@@ -18,7 +18,12 @@ const itRoutes = require('./routes/itRoutes');
 
 // avvio di base
 app.set('view engine', 'ejs');
-app.listen(3011);
+const server = app.listen(process.env.PORT, () => {
+    const port = server.address().port;
+    if (process.env.NODE_ENV == "development") {
+        console.log(`Server in esecuzione sulla porta ${port} && Testato con Node v.20.10.0`);
+    }
+});
 
 app.use(express.json());
 app.set('x-powered-by', false)
