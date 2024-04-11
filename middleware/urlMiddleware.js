@@ -17,6 +17,22 @@ const checkUrl = (req, res, next) => {
             global.lang=match[1];
         }
     }
+    console.log(req.get('X-Forwarded-Proto'));
+    console.log(req.headers.host);
+    console.log(req.url);
+    console.log(req.originalUrl);
+    /* Redirect http => https */
+    if (req.get('X-Forwarded-Proto') === 'http' && process.env.NODE_ENV === "production") {
+        if (!req.headers.host.startsWith('www.') && process.env.NODE_ENV === "production") {
+            res.redirect(301, `https://www.${req.headers.host}${req.originalUrl}`);
+        } else {
+            res.redirect(301, `https://${req.headers.host}${req.originalUrl}`);
+        }
+      }
+    /* Redirect non www to www  */
+    if (!req.headers.host.startsWith('www.') && process.env.NODE_ENV === "production") {
+        res.redirect(301, `https://www.${req.headers.host}${req.originalUrl}`);
+    }
     next();
 };
 
