@@ -5,3 +5,4 @@ utility
 data/datiEsterni.db
 data/cache
 .DS_Store
+package-lock.json

@@ -17,10 +17,6 @@ const checkUrl = (req, res, next) => {
             global.lang=match[1];
         }
     }
-    console.log(req.get('X-Forwarded-Proto'));
-    console.log(req.headers.host);
-    console.log(req.url);
-    console.log(req.originalUrl);
     /* Redirect http => https */
     if (req.get('X-Forwarded-Proto') === 'http' && process.env.NODE_ENV === "production") {
         if (!req.headers.host.startsWith('www.') && process.env.NODE_ENV === "production") {
