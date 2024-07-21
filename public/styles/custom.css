@@ -1,3 +1,11 @@
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
 .intro10-section {
     background-color: rgb(251, 249, 246);
 }

@@ -1,166 +1,141 @@
 [
     {
-        "id" : 1,
         "nome" : "Raggio di sole",
         "settore" : "Produzione mangimi",
         "logo" : "/images/clienti/raggiodisole.png",
         "citta" : "Milano"
     },
     {
-        "id" : 9,
         "nome" : "Villaggio Europa",
         "settore" : "Villaggio turistico",
         "logo" : "/images/clienti/villaggio.png",
         "citta" : "Roseto degli Abruzzi (TE)"
     },
     {
-        "id" : 3,
         "nome" : "Gruppo Meca",
         "settore" : "Piegatura lamiere",
         "logo" : "/images/clienti/meca.png",
         "citta" : "Boretto (RE)"
     },
     {
-        "id" : 4,
         "nome" : "Proxera",
         "settore" : "Produzioni odontotecniche",
         "logo" : "/images/clienti/proxera.png",
         "citta" : "Boretto (RE)"
     },
     {
-        "id" : 5,
         "nome" : "Zare",
         "settore" : "Produzione Additive Manufacturing",
         "logo" : "/images/clienti/zare.png",
         "citta" : "Boretto (RE)"
     },
     {
-        "id" : 6,
         "nome" : "Juno",
         "settore" : "Produzione Additive Manufacturing",
         "logo" : "/images/clienti/juno.png",
         "citta" : "Bologna"
     },
     {
-        "id" : 7,
         "nome" : "OMB",
         "settore" : "Produzione Motovibratori",
         "logo" : "/images/clienti/omb.png",
         "citta" : "Formigine (MO)"
     },
     {
-        "id" : 8,
         "nome" : "3D Onsite",
         "settore" : "Service Online Additive",
         "logo" : "/images/clienti/3donsite.png",
         "citta" : "Boretto (RE)"
     },
     {
-        "id" : 25,
         "nome" : "Fp Tecnica",
         "settore" : "Montaggi Industriali",
         "logo" : "/images/clienti/fpTecnica.png",
         "citta" : "Formigine (MO)"
     },
-    
     {
-        "id" : 10,
+        "nome" : "3FESTO",
+        "settore" : "Software manifatturiero",
+        "logo" : "/images/clienti/3festo.png",
+        "citta" : "Bologna"
+    },
+    {
         "nome" : "Self",
         "settore" : "Commerciale piastrelle",
         "logo" : "/images/clienti/self.png",
         "citta" : "Sassuolo (MO)"
     },
     {
-        "id" : 11,
         "nome" : "Soeinfach",
         "settore" : "Export manager",
         "logo" : "/images/clienti/soeinfach.png",
         "citta" : "Bologna"
     },
     {
-        "id" : 12,
         "nome" : "Caselli",
         "settore" : "Produzione liquori",
         "logo" : "/images/clienti/caselli.png",
         "citta" : "Sassuolo (MO)"
     },
     {
-        "id" : 2,
-        "nome" : "Arezia",
-        "settore" : "Commerciale piastrelle",
-        "logo" : "/images/clienti/arezia.png",
-        "citta" : "Sassuolo (MO)"
-    },
-    {
-        "id" : 14,
         "nome" : "Mio",
         "settore" : "Luxury Brand",
         "logo" : "/images/clienti/mio.png",
         "citta" : "Boretto (RE)"
     },
     {
-        "id" : 19,
         "nome" : "La collina",
         "settore" : "Ristorante",
         "logo" : "/images/clienti/lacollina.png",
         "citta" : "Toano (RE)"
     },
     {
-        "id" : 20,
         "nome" : "Ricambi ceramici",
         "settore" : "Ricambi impianti piastrelle",
         "logo" : "/images/clienti/ricambi.png",
         "citta" : "Sassuolo (MO)"
     },
     {
-        "id" : 15,
         "nome" : "Mam forni",
         "settore" : "Produzione forni pizza",
         "logo" : "/images/clienti/mam.png"
     },
     {
-        "id" : 16,
         "nome" : "Tecnoufficio",
         "settore" : "Assistenza informatica",
         "logo" : "/images/clienti/tecnoufficio.png"
     },
     {
-        "id" : 17,
         "nome" : "Dms",
         "settore" : "Commerciale capsule espresso",
         "logo" : "/images/clienti/dms.png",
         "citta" : "Modena"
     },
     {
-        "id" : 18,
         "nome" : "VG Service",
         "settore" : "Videogames strutture ricettive",
         "logo" : "/images/clienti/vgservice.png",
         "citta" : "Teramo"
     },
     {
-        "id" : 21,
         "nome" : "Zephir",
         "settore" : "Produzione locomotori",
         "logo" : "/images/clienti/zephir.png",
         "citta" : "Modena"
     },
     {
-        "id" : 22,
         "nome" : "Tipico",
         "settore" : "E-commerce alimentare",
         "logo" : "/images/clienti/tipico.png",
         "citta" : "Sassuolo (MO)"
     },
     {
-        "id" : 23,
         "nome" : "Radio città del capo",
         "settore" : "Emittente radiofonica",
         "logo" : "/images/clienti/radio.png",
         "citta" : "Bologna"
     },
     {
-        "id" : 24,
         "nome" : "Formazione commerciale",
         "settore" : "Scuola di formazione",
         "logo" : "/images/clienti/formazionecommerciale.png",
