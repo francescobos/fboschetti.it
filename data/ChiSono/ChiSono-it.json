@@ -9,35 +9,35 @@
     {
         "anno" : "2001",
         "titolo" : "Freewave, l’onda libera dei siti web",
-        "testo" : "Fondai la <b>Freewave s.r.l.</b> una società per realizzare siti internet. Nel 2003 acquistai la mia prima macchina in server farm (gestita) ed iniziai a scrivere software in php. <b>Scrissi un e-commerce MasterixWeb che <span class=\"sottorosso\">venne lanciato a SMAU</span></b>.",
+        "testo" : "Fondai la <b>Freewave s.r.l.</b> una società per realizzare siti internet. Nel 2003 acquistammo la nostra prima macchina in server farm ed iniziammo a scrivere software in php. <b>Pubblicammo un e-commerce, MasterixWeb, che <span class=\"sottorosso\">venne lanciato a SMAU</span></b>.",
         "immagine" : "/images/chiSono/2001freewave.jpg",
         "altImmagine" : "Freewave srl Sassuolo"
     },
     {
         "anno" : "2004",
         "titolo" : "Linux Mon Amour",
-        "testo" : "Iniziai ad innamorarmi di Linux (in particolare di <a href=\"https://www.debian.org\" target=\"_blank\">Debian</a>) e a frequentare le comunità del software libero. <a href=\"http://erlug.linux.it/\" target=\"_blank\">Erlug</a> a Bologna e <a href=\"http://ildn.net/\" target=\"_blank\">ILDN</a> online furono i luoghi dove conobbi un numero imprecisato di persone che ho frequentato per moltissimi anni e che sono felice di frequentare ancora.",
-        "immagine" : "/images/chiSono/2004linux.jpg",
-        "altImmagine" : "Linux mio amore"
+        "testo" : "Iniziai ad innamorarmi di <b>Linux</b> e a frequentare i luoghi, fisici e digitali, dove si parlava di software libero. <b>Conobbi un numero imprecisato di <span class=\"sottorosso\">professionisti</span> e <span class=\"sottorosso\">imprenditori del digitale</span></b>, sia in erba che più navigati, che ho frequentato per moltissimi anni e che sono felice di frequentare tuttora.",
+        "immagine" : "/images/chiSono/2005free.jpg",
+        "altImmagine" : "Linux mon amour"
     },
     {
         "anno" : "2005",
-        "titolo" : "Free as in speech",
-        "testo" : "Abbandonai la Freewave s.r.l. che, nel frattempo, si era maggiormente <b>orientata verso la stampa</b> ed iniziai a studiare per diventare sistemista Linux. Continuai a <b>realizzare siti internet ed applicazioni web su stack LAMP (Linux, Apache, Mysql, Php)</b> ma amministrando in prima persona anche i server.",
-        "immagine" : "/images/chiSono/2005free.jpg",
+        "titolo" : "Da Freewave a Freelance",
+        "testo" : "Abbandonai la Freewave s.r.l. che, nel frattempo, aveva deciso di orientarsi in modo deciso <b>verso la stampa</b>. Scelsi <span class=\"sottorosso\">la via del freelance</span> con l'obiettivo di aiutare le aziende a muoversi online: molto spesso, per loro, era la prima volta. Gli imprenditori avevano <b>necessità di essere online</b>, io non vedevo l'ora di <b>capire come funzionavano le loro aziende</b>.",
+        "immagine" : "/images/chiSono/2005manifattura.jpg",
         "altImmagine" : "Free as in speach"
     },
     {
         "anno" : "2008",
-        "titolo" : "Business as usual",
-        "testo" : "Iniziai una lunga collaborazione con BM Informatica, azienda del comprensorio sassolese che si occupava di <b>assistenza informatica alle aziende</b>. Portai la mia esperienza su Linux ed imparai molto sul funzionamento di Windows e sulle<b> esigenze IT delle aziende che servivamo.</b>",
+        "titolo" : "IT Business",
+        "testo" : "Entrai come socio in BM Informatica, azienda del comprensorio sassolese che si occupava di <b>assistenza informatica alle aziende</b>. Portai la mia esperienza su Linux e su come le attività con le quali collaboravo si stavano affacciando online. In quel periodo imparai molto riguardo alle <b>esigenze IT e infrastrutturali <span class=\"sottorosso\">ON-SITE</span></b> di coloro che ci sceglievano come fornitori.",
         "immagine" : "/images/chiSono/2008business.jpg",
         "altImmagine" : "Assistenza informatica aziende"
     },
     {
         "anno" : "2009",
         "titolo" : "Ztrasp, Castorama e Bricocenter",
-        "testo" : "Entrai in un progetto bellissimo. <b>Scrissi e mantenni un'applicazione \"ibrida\"</b>, offline e online, per la quale percepii royalties per svariati anni. L’applicazione era venduta ai fornitori di <b class=\"sottorosso\">Castorama</b> (ora Leroy Merlin) e <b class=\"sottorosso\">Bricocenter</b> e si occupava di fornire i dati per lo stoccaggio merci alla piattaforma di interscambio. ",
+        "testo" : "Entrai in un progetto bellissimo. <b>Progettai, scrissi e mantenni per lungo tempo un'applicazione \"ibrida\"</b>, offline e online, per la quale percepii royalties per svariati anni. L’applicazione era venduta ai fornitori di <b class=\"sottorosso\">Castorama</b> (ora Leroy Merlin) e <b class=\"sottorosso\">Bricocenter</b> e si occupava di fornire i dati per lo stoccaggio merci alla piattaforma di interscambio. ",
         "immagine" : "/images/chiSono/2009ztrasp.jpg",
         "altImmagine" : "Ztrasp, Castorama, Bricocenter"
     },
