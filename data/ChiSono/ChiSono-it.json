@@ -100,14 +100,14 @@
     {
         "anno" : "2022",
         "titolo" : "Wow! Ma ora tutto è cloud!",
-        "testo" : "Iniziai una collaborazione con <a href=\"https://www.juno.am\" target=\"_blank\">Juno</a> ma soprattutto iniziai a collaborare con la loro start-up innovativa <a href=\"https://www.3festo.com\" target=\"_blank\">3Festo.</a><b> Dovevo scrivere codice, dovevo amministrare macchine e programmare</b> in linguaggi e con logiche di cui avevo solo sentito parlare negli ultimi anni, ma nelle quali non avevo mai, davvero, messo mano. <b class=\"sottorosso\">Esaltante!</b>",
+        "testo" : "Iniziai una collaborazione con <a href=\"https://www.juno.am\" target=\"_blank\">Juno</a> ma soprattutto assunsi un incarico con la loro <a href=\"https://www.3festo.com\" target=\"_blank\" style=\"text-decoration: underline\"><b>start-up innovativa 3Festo.</a> </b>Chiusi il cerchio, tornando ad occuparmi anche di software online, macchine e sistemi cloud. <b class=\"sottorosso\">Esaltante!</b>",
         "immagine" : "/images/chiSono/2022cloud.jpg",
         "altImmagine" : "Sviluppo cloud"
     },
     {
         "anno" : "OGGI",
         "titolo" : "OGGI",
-        "testo" : "Mi occupo di ciò che amo e che ho fatto anche come direttore marketing: <b>collaboro con i miei ex-colleghi</b> direttori marketing, direttori vendita, consulenti e creativi per <span class=\"sottorosso fst-italic\">sostituire software obsoleti, svecchiare siti web, integrare e far comunicare applicazioni tra loro, automatizzare e portare online i processi aziendali</span>. Amo la tecnica, quella sporca, quella che mi diverte. <b class=\"sottorosso\">E studio</b>, studio il più possibile.",
+        "testo" : "Assumo incarichi di <b>media durata</b> nel corso dei quali mi è permesso di essere coinvolto nella <b>quotidianità dell'azienda</b> e nel suo <b class=\"sottorosso\">marketing</b>. Organizzo, <b>svolgo operatività in prima persona</b> e, quando serve, efficiento i processi <b>scrivendo microsoftware ad hoc.</b> <br />E ho il mio sogno nel cassetto: <a href=\"/it/matchbrand\" target=\"_blank\" class=\"link-matchbrand\">MATCHBRAND</a>.",
         "immagine" : "/images/chiSono/oggi.jpg",
         "altImmagine" : "Cosa fa oggi Francesco Boschetti"
     }

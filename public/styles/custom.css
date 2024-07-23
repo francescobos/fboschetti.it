@@ -331,3 +331,16 @@ p {
 
 
 /* END Modulo Contatti */
+
+.link-matchbrand {
+    background-color: #c81b2e;
+    color: #f4ebda;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+.link-matchbrand:hover {
+    text-decoration: none;
+    color: white;
+}
