@@ -2,7 +2,7 @@
     {
         "id" : 6,
         "domanda" : "Mi occupo di social marketing, puoi aiutarmi con siti e domini?",
-        "risposta" : "<b>Certamente</b>. Posso gestire per te l'infrastruttura dei tuoi clienti o, se preferisci, affittargli parte della mia. Da più di 20 anni registro domini, configuro DNS, mantengo server web e realizzo siti. Ce la caveremo!"
+        "risposta" : "<b>In genere sì</b>. Posso gestire per te l'infrastruttura dei tuoi clienti o, se preferisci, affittargli parte della mia. Da più di 20 anni registro domini, configuro DNS, mantengo server web e realizzo siti. Ce la caveremo!"
     },
     {
         "id" : 7,
@@ -12,7 +12,7 @@
     {
         "id" : 8,
         "domanda" : "Lavori con agenzie di marketing / comunicazione?",
-        "risposta" : "<b>Sì, in differenti modalità.</b> Posso gestire le tua macchine o le macchine dei tuoi clienti, posso lavorare su siti, software o semplicemente essere un tuo consulente."
+        "risposta" : "<b>Sì, in differenti modalità.</b> Posso gestire le tua macchine o le macchine dei tuoi clienti, posso lavorare su siti, software o semplicemente essere un tuo consulente. Posso essere il tuo \"tecnico\", ma con il quale puoi parlare di marketing."
     },
     {
         "id" : 9,
@@ -22,6 +22,6 @@
     {
         "id" : 10,
         "domanda" : "Lavori da solo o hai dei collaboratori?",
-        "risposta" : "Lavoro in prevalenza da solo soprattutto nelle fasi iniziali di un progetto: amo  avere un visione d'insieme e mi trovo maggiormente a mio agio su lavori trasversali. Ovviamente in più di 20 anni ho conosciuto molti professionisti e gruppi organizzati. <b>Conosco i miei limiti e riconosco quando è migliorativo coinvolgere la mia rete</b>."
+        "risposta" : "Lavoro in prevalenza da solo soprattutto nelle fasi iniziali di un progetto: amo avere un visione d'insieme e mi trovo maggiormente a mio agio su lavori trasversali. Ovviamente in più di 20 anni ho conosciuto molti professionisti e gruppi organizzati. <b>Conosco i miei limiti e riconosco quando è migliorativo coinvolgere la mia rete</b>."
     }
 ]

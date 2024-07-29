@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "domanda" : "Ti occupi di Digital Marketing?",
-        "risposta" : "Dipende. Me ne sono occupato ed ho <span class=\"sottorosso\">diretto il marketing di un gruppo aziendale manifatturiero</span>. Posso occuparmi di implementare il marketing attraverso i processi aziendali a supporto della vendita. Le tattiche possono essere <b>\"digitali\"</b> o meno, i processi, invece, probabilmente trovano benefici ad essere <b>\"digitalizzati\"</b>."
+        "risposta" : "Me ne sono occupato ed ho <span class=\"sottorosso\">diretto il marketing di un gruppo aziendale manifatturiero</span>. Posso occuparmi di implementare il marketing attraverso i processi aziendali a supporto della vendita. Le tattiche possono essere <b>\"digitali\"</b> o meno, i processi, invece, probabilmente trovano benefici ad essere <b>\"digitalizzati\"</b>."
     },
     {
         "id" : 2,
@@ -22,12 +22,12 @@
     {
         "id" : 4,
         "domanda" : "Sono un imprenditore, puoi aiutarmi?",
-        "risposta" : "<b>Dipende dal tipo di lavoro che ti aspetti</b>, da quanto è dettagliata la tua strategia e quanto sono precise le tue tattiche. Non lo escludo, proviamo a sentirci."
+        "risposta" : "<b>In genere sì.</b> Molto dipende dal tipo di lavoro che ti aspetti, da quanto è dettagliata la tua strategia e quanto sono precise le tue tattiche. Sentiamoci e parliamone."
     },
     {
         "id" : 5,
         "domanda" : "Con quali tecnologie lavori?",
-        "risposta" : "Droplet / VM Ubuntu, Node.js, React, Next.js, AWS, Docker"
+        "risposta" : "Droplet / VM Ubuntu, Node.js, AWS, Docker"
     }
 
 ]
