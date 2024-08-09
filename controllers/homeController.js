@@ -96,6 +96,13 @@ const contattami = (req, res) => {
   res.render(`contattami-${lang}`, {meta, titolo});
 }
 
+const matchbrand = (req, res) => {
+  const metaJson = require (`../data/Meta/matchbrand-${lang}.json`);
+  const meta = tools42.generateMeta(metaJson);
+  const titolo = ""
+  res.render(`matchbrand-${lang}`, {meta, titolo});
+}
+
 const cookiePolicy = (req, res) => {
   const titolo = "Cookie Policy";
   res.render(`cookiePolicy-${lang}`, {titolo});
@@ -197,5 +204,6 @@ module.exports = {
     lavoriamoInsieme,
     contattami,
     cookiePolicy,
+    matchbrand,
     invioModuloContatti
 }

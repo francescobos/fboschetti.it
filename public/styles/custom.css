@@ -1,9 +1,19 @@
-p {
+p, li {
     text-align: justify;
     font-size: 16px;
     line-height: 33px;
     color: #333333;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
+}
+
+li {
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.6rem;
+}
+.block-quote-matchbrand {
+    border-left: 4px solid #9e1946 !important;
 }
 
 .intro10-section {

@@ -7,6 +7,7 @@ router.get ('/', homeController.homeIndex);
 router.get ('/chi-sono', homeController.chiSono);
 router.get ('/lavoriamo-insieme', homeController.lavoriamoInsieme);
 router.get ('/contattami', homeController.contattami);
+router.get ('/matchbrand', homeController.matchbrand);
 router.get ('/cookie-policy', homeController.cookiePolicy);
 
 router.post ('/invio-messaggio', homeController.invioModuloContatti);

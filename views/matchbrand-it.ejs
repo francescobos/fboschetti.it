@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="no-js" lang="it">
+    <head>
+    <%- include ('./components/Generics/Css/Css.ejs') %>
+    <%- include ('./components/Generics/Meta/Meta.ejs') %>
+    <%- meta %>
+    <% if (production) { %> 
+        <%- include ('./components/Generics/Head/googleAndOthers.ejs') ;%>
+    <% } %>
+    </head>
+    <body class="template-color-10">
+        <div id="page">
+            <%- include ('./components/Generics/Header/Header-it.ejs') %>
+            <%- include ('./components/Generics/Titolo/Titolo-it.ejs') %>
+            
+            <%- include ('./components/Matchbrand/index-it.ejs') %>
+
+             <%- include ('./components/Generics/CtaLavoriamo/CtaLavoriamo-it.ejs') %>
+            <%- include ('./components/Generics/Footer/Footer-it.ejs') %>
+        </div>
+        <%- include ('./components/Generics/MenuMobile/MenuMobile-it.ejs') %>
+        <%- include ('./components/Generics/Js/Js.ejs') %>
+    </body>
+</html>
