@@ -18723,7 +18723,7 @@ ul.section-content .course-item .section-item-link .course-item-meta .item-meta-
   display: block;
   padding: 16px 0 15px 30px;
 }
-.sidebar-widget-list-post li a::before, .sidebar-widget-list-post li a::after {
+/* .sidebar-widget-list-post li a::before, .sidebar-widget-list-post li a::after {
   font-family: "Font Awesome 5 Free";
   font-size: 15px;
   line-height: 15px;
@@ -18732,7 +18732,7 @@ ul.section-content .course-item .section-item-link .course-item-meta .item-meta-
   left: 0;
   content: "\f30b";
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+} */
 .sidebar-widget-list-post li a::after {
   visibility: hidden;
   transform: translateX(-100%);

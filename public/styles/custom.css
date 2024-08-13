@@ -12,6 +12,20 @@ li {
 h2 {
     font-size: 1.6rem;
 }
+
+/* menu interno */
+
+.menu-interno a{
+    font-weight: 500;
+}
+
+.menu-interno a {
+    margin: 7px 0;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid #9e1946
+}
+
 .block-quote-matchbrand {
     border-left: 4px solid #9e1946 !important;
 }
@@ -342,6 +356,15 @@ h2 {
 
 /* END Modulo Contatti */
 
+/* Matchbrand */
+.matchbrand {
+    background-color: #f4ebda;
+    color: #00483C;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
 .link-matchbrand {
     background-color: #c81b2e;
     color: #f4ebda;
@@ -354,3 +377,13 @@ h2 {
     text-decoration: none;
     color: white;
 }
+.menu-matchbrand {
+    background-color: #c81b2e;
+    color: #f4ebda;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+/* END Matchbrand */
