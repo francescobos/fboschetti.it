@@ -15,6 +15,7 @@ aziendaCampo=document.querySelector('#azienda');
 nomeCampo=document.querySelector('#nome');
 telefonoCampo=document.querySelector('#telefono');
 emailCampo=document.querySelector('#email');
+motivoCampo=document.querySelector('#motivo');
 messaggioCampo=document.querySelector('#messaggio');
 langCampo=document.querySelector('#lang');
 areaMessaggiGreen=document.querySelector('#areaMessaggiGreen');
@@ -26,6 +27,7 @@ bottoneInvio.addEventListener('click', (e) => {
     nome=nomeCampo.value;
     telefono=telefonoCampo.value;
     email=emailCampo.value;
+    motivo=motivoCampo.value;
     messaggio=messaggioCampo.value;
     lang=langCampo.value;
     areaMessaggiRed.classList.remove('d-none');
@@ -47,7 +49,7 @@ bottoneInvio.addEventListener('click', (e) => {
                     'Accept': 'application/json, text/plain, */*',
                     'Content-Type': 'application/json'
             },
-            body:JSON.stringify({azienda, nome, telefono, email, messaggio})
+            body:JSON.stringify({azienda, nome, telefono, email, motivo, messaggio})
             })
             .then(res => res.json()).then(data => { 
                 console.log(bottoneInvio)

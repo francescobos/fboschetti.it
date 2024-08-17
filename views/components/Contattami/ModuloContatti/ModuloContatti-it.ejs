@@ -45,18 +45,27 @@
                                 </div>
                                 <div class="row max-mb-n30">
                                     <div class="col-md-12 col-12 max-mb-30">
+                                        <label>Il nome dell'azienda per la quale mi contatti</label>
                                         <input type="text" placeholder="Azienda *" name="azienda" id="azienda">
                                     </div>
                                     <div class="col-md-12 col-12 max-mb-30">
+                                        <label>Il tuo nome e cognome</label>
                                         <input type="text" placeholder="Nome e Cognome *" name="nome" id="nome">
                                     </div>
                                     <div class="col-md-12 col-12 max-mb-30">
+                                        <label for="email">Il tuo indirizzo email *</label>
                                         <input type="email" placeholder="Email *" name="email" id="email">
                                     </div>
                                     <div class="col-md-12 col-12 max-mb-30">
+                                        <label for="telefono">Il tuo numero di telefono / Whatsapp *</label>
                                         <input type="text" placeholder="Telefono *" name="telefono" id="telefono">
                                     </div>
+                                    <div class="col-md-12 col-12 max-mb-30">
+                                        <label for="motivo">Il motivo per cui mi stai contattando</label>
+                                        <input type="text" placeholder="<%= motivo %>" name="motivo" id="motivo" value="<%= motivo %>">
+                                    </div>
                                     <div class="col-12 max-mb-30">
+                                        <label for="messaggio">Un eventuale messaggio che vuoi lasciarmi</label>
                                         <textarea name="messaggio" placeholder="Messaggio *" id="messaggio" ></textarea>
                                         <input type="hidden" value="<%- lang %>" name="lang" id="lang">
                                     </div>

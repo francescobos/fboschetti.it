@@ -13,6 +13,12 @@ h2 {
     font-size: 1.6rem;
 }
 
+label {
+    margin: 0 0 4px 7px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 700;
+}
 /* menu interno */
 
 .menu-interno a{

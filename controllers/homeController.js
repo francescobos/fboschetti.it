@@ -90,10 +90,12 @@ const lavoriamoInsieme = (req, res) => {
 }
 
 const contattami = (req, res) => {
+  let motivo = "Motivo per il quale mi contatti";
+  if (req.query.motivo) { motivo = req.query.motivo; }
   const metaJson = require (`../data/Meta/contattami-${lang}.json`);
   const meta = tools42.generateMeta(metaJson);
   const titolo = "Se ti va, entriamo in contatto!";
-  res.render(`contattami-${lang}`, {meta, titolo});
+  res.render(`contattami-${lang}`, {meta, titolo, motivo});
 }
 
 const matchbrand = (req, res) => {
@@ -116,6 +118,7 @@ const invioModuloContatti = (req, res) => {
   //const email = "mailsbagliata"; 
   const azienda = req.body.azienda;
   const nome = req.body.nome;
+  const motivo = req.body.motivo;
   const telefono = req.body.telefono;
   const messaggio = req.body.messaggio;
 
@@ -135,6 +138,7 @@ const invioModuloContatti = (req, res) => {
    emailHtml = emailHtml.replace(/\|\*nome\*\|/g, nome);
    emailHtml = emailHtml.replace(/\|\*telefono\*\|/g, telefono);
    emailHtml = emailHtml.replace(/\|\*email\*\|/g, email);
+   emailHtml = emailHtml.replace(/\|\*motivo\*\|/g, motivo);
    emailHtml = emailHtml.replace(/\|\*messaggio\*\|/g, messaggio);
    emailHtml = emailHtml.replace(/\|\*data\*\|/g,  tools42.getDateTime());
  
@@ -142,6 +146,7 @@ const invioModuloContatti = (req, res) => {
    emailTxt = emailTxt.replace(/\|\*nome\*\|/g, nome);
    emailTxt = emailTxt.replace(/\|\*telefono\*\|/g, telefono);
    emailTxt = emailTxt.replace(/\|\*email\*\|/g, email);
+   emailTxt = emailTxt.replace(/\|\*motivo\*\|/g, motivo);
    emailTxt = emailTxt.replace(/\|\*messaggio\*\|/g, messaggio);
    emailTxt = emailTxt.replace(/\|\*data\*\|/g,  tools42.getDateTime());
 
@@ -173,13 +178,14 @@ const invioModuloContatti = (req, res) => {
     // per test senza registrazione e mail commenta dalla riga qui sotto
     
     data=new Date();
-    const stmt = dbEsterno.prepare('INSERT INTO moduloContatti (azienda, nome, telefono, email, messaggio, data) VALUES (@azienda, @nome, @telefono, @email, @messaggio, @data)');
+    const stmt = dbEsterno.prepare('INSERT INTO moduloContatti (azienda, nome, telefono, motivo, email, messaggio, data) VALUES (@azienda, @nome, @telefono, @motivo, @email, @messaggio, @data)');
 
     stmt.run({
       azienda: azienda,
       nome: nome,
       telefono: telefono,
       email: email,
+      motivo: motivo,
       messaggio: messaggio,
       data: data.toISOString()
     });
